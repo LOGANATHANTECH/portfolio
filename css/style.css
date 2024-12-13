@@ -101,5 +101,13 @@ body {
     height: 40%;
     width: 40%;
     border: 1px solid red;
-
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.introduction h1{
+    height: 30px;
+    background-color: #050202;    
 }

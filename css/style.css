@@ -23,14 +23,14 @@ body {
 }
 
 /* this is for navigation bar */
-
+/* 
 #first-section {
     height: 8vh;
-}
+} */
 
 .navigation {
-    height: 8vh;
-    width: 100vw;
+    height: 60px;
+    width: 100%;
     margin: 0;
     border-bottom: 1px solid white;
     display: flex;
@@ -40,8 +40,8 @@ body {
 }
 
 .namebox {
-    height: 70px;
-    width: 180px;
+    /* height: 10%; */
+    width: 15%;
     margin-left: 7%;
     border-bottom: 1px solid white;
     border-bottom-left-radius: 10px;
@@ -51,7 +51,7 @@ body {
     justify-content: center;
     padding: 40px 15px 40px;
     font-family: 'Tangerine', cursive;
-    font-size: 40px;
+    font-size: 300%;
     font-weight: 380;
     color: #ffffff;
 

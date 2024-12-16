@@ -84,11 +84,15 @@ body {
     border-top: 3px solid rgb(12, 224, 12);
     color: rgb(12, 224, 12);
 
-}
 
+}
+.nav-right ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
 /* this second section for introduction */
 
-#second-section{
+#second-section {
     height: 92vh;
     width: 100vw;
     color: #ffffff;
@@ -97,17 +101,44 @@ body {
     justify-content: center;
 }
 
-.introduction{
+.introduction {
     height: 40%;
     width: 40%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     flex-direction: column;
     row-gap: 20px;
 }
-.introduction h1{
-    height: 30px;
-    background-color: #050202;    
+
+.introduction h1 {
+    width: 500px;
+    height: 50px;
+    letter-spacing: 1px;
+
+    font-family: 'Tangerine', cursive;
+    /* background-color: #050202; */
+    font-size: 500%;
+
+}
+.introduction h3 {
+    /* text-decoration: none; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    letter-spacing: 1px;
+
+}
+.introduction a{
+    height: 40px;
+    width: 170px;
+    background-color: green;
+    /* background-color: #025a02; */
+    color: #ffffff;
+    text-align: center;
+    padding-top:7px;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    border: 1px solid green;
+    border-radius: 8px;
 }

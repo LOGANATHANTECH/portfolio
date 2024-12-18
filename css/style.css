@@ -12,7 +12,7 @@
 
 body {
     width: 100%;
-    height: 100vh;
+  /*  height: 100vh;*/
     margin: 0;
     padding: 0;
     box-shadow: none;
@@ -31,7 +31,7 @@ body {
 } */
 
 .navigation {
-    height: 60px;
+    height: 8vh;
     width: 100%;
     margin: 0;
     border-bottom: 1px solid white;
@@ -122,7 +122,7 @@ h1 {
 /* this second section for introduction */
 
 #second-section {
-    height: 600px;
+    height: 100vh;
     width: 100%;
     color: #ffffff;
     display: flex;
@@ -134,7 +134,7 @@ h1 {
 .introduction {
     height: 40%;
     width: 40%;
-    border: 1px solid red;
+   /* border: 1px solid red;/*/
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -222,3 +222,87 @@ h1 {
 
     /* color: rgb(238, 248, 238); */
 }
+
+
+
+/*<...
+
+
+
+
+                below this all code are done in the college i should werify once at my home
+
+
+
+...>*/
+
+/* this is for about section         */
+
+
+#about{
+    height: 100vh;
+    width: 100vw;
+    border: 3px solid green;    
+    color: #ffffff;
+    background-color: green;
+}
+.about_start{
+    height:50vh;
+    width: 100%;
+    border:10px dotted #ffffff;
+}
+.about_definition{
+    height:50vh;
+    width: 100%;
+    border:10px dotted #e11af3;
+}
+
+
+
+/* this is for portfolio section */
+
+.portfolio{
+    height: 100vh;
+    width: 100%;
+    border:3px dotted #127fe6;
+    
+  
+}
+.portfolio_divs{
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    border:3px dotted #127fe6;
+    flex-wrap: wrap;
+
+
+
+
+}
+
+.portfolio_1{
+    height: 50vh;
+    width: 50%;
+    border:7px dotted #e68312;
+}
+.portfolio_2{
+    height: 50vh;
+    width: 50%;
+
+    border:7px dotted #d8e612;
+}
+.portfolio_3{
+    height: 50vh;
+    width: 50%;
+
+    border:7px dotted #35e612;
+}
+.portfolio_4{
+    height: 50vh;
+    width: 50%;
+
+    border:7px dotted #e61224;
+}
+
+
+
